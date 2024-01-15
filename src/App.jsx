@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-    
+
         <Appbar />
 
         <Routes>
@@ -30,7 +30,7 @@ function App() {
 
 function Appbar() {
   const navigate = useNavigate();
-  
+
   return <div>
     <button onClick={() => {navigate("/")}}> Landing </button>
     <button onClick={() => {navigate("/dashboard")}}> Dashboard </button>
